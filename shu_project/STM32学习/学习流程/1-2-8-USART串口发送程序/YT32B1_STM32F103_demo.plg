@@ -1,0 +1,175 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\DYS7\Desktop\100步\1-2-8-USART串口发送程序\YT32B1_STM32F103_demo.uvproj
+Project File Date:  01/09/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=11942 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11942 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(35): error:  #140: too many arguments in function call
+User\main.c:            USART_SendData(USART1 , 0x55,0x56); //发送单个数值
+User\main.c:                                         ^
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+User\main.c(35): error:  #167: argument of type "char *" is incompatible with parameter of type "uint16_t"
+User\main.c:            USART_SendData(USART1 , "U"); //发送单个数值
+User\main.c:                                    ^
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11942 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=11942 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11934 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11926 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11926 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11934 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11930 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11930 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=11938 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #177-D: variable "a" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:       ^
+User\main.c(25): warning:  #177-D: variable "b" was declared but never referenced
+User\main.c:    u8 a=7,b=8;
+User\main.c:           ^
+User\main.c: User\main.c: 2 warnings, 0 errors
+compiling usart.c...
+linking...
+Program Size: Code=11942 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=11942 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).
