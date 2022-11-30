@@ -1,5 +1,7 @@
 #include "oled.h"
 #include "ASCII_8x16.h"
+#include "CHS_16x16.h"
+#include "PIC1.h"
 
 void OLED_Init(void)
 {
@@ -30,8 +32,8 @@ void OLED_DISPLAY_CLEAR(void)
 		I2C_SAND_BYTE(OLED_ADD,COM,i); // 组数
 		// 128列,发送的起始列地址
 		I2C_SAND_BYTE(OLED_ADD,COM,0x10);
-		I2C_SAND_BYTE(OLED_ADD,COM,0x00);
-		for(u8 j=0;j<132;j++){
+		I2C_SAND_BYTE(OLED_ADD,COM,0x02);
+		for(u8 j=0;j<128;j++){
 			//128变成132，是由于芯片可以驱动132列，现在使用的是128列
 			// 也可以写128
 			I2C_SAND_BYTE(OLED_ADD,DAT,0x00);
@@ -62,5 +64,32 @@ void OLED_DISPLAY_8x16_BUFFER(u8 row,u8 *str) // 显示8x16的字符串
 	while(*str != '\0'){
 		OLED_DISPLAY_8x16(row,r*8,*str++);
 		r++;
+	}
+}
+
+void OLED_DISPLAY_16x16(u8 x,u8 y,u8 w) // 显示汉字（16x16）
+{
+	u8 c = 0;
+	y = y + 2;
+	for(u8 i=0;i<2;i++){
+		I2C_SAND_BYTE(OLED_ADD,COM,0xB0+x);
+		I2C_SAND_BYTE(OLED_ADD,COM,0x10+y/16);
+		I2C_SAND_BYTE(OLED_ADD,COM,0x00+y%16);
+		for(u8 j=0;j<16;j++){
+			I2C_SAND_BYTE(OLED_ADD,DAT,GB_16[(w*32)+c]);
+			c++;
+		}
+		x++;
+	}
+}
+void OLED_DISPLAY_PIC(void) //显示图片
+{
+	for(u8 i = 0;i<8;i++){
+		I2C_SAND_BYTE(OLED_ADD,COM,0xB0+i);
+		I2C_SAND_BYTE(OLED_ADD,COM,0x10);
+		I2C_SAND_BYTE(OLED_ADD,COM,0x02);
+		for(u8 j=0;j<128;j++){
+			I2C_SAND_BYTE(OLED_ADD,DAT,PIC1[j+i*128]);
+		}
 	}
 }

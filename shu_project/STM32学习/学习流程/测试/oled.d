@@ -32,3 +32,5 @@
 .\oled.o: .\Lib\inc\misc.h
 .\oled.o: .\Basic\i2c\i2c.h
 .\oled.o: Hardware\oled\ASCII_8x16.h
+.\oled.o: Hardware\oled\CHS_16x16.h
+.\oled.o: Hardware\oled\PIC1.h

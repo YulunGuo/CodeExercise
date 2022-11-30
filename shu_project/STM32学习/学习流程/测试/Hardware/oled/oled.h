@@ -16,6 +16,7 @@ void OLED_DISPLAY_LTF(u8 x); // 亮度显示
 void OLED_DISPLAY_CLEAR(void);
 void OLED_DISPLAY_8x16(u8 x,u8 y,u16 w); // 显示单个字符
 void OLED_DISPLAY_8x16_BUFFER(u8 row,u8 *str); // 显示8x16的字符串
-
+void OLED_DISPLAY_16x16(u8 x,u8 y,u8 w); // 显示汉字
+void OLED_DISPLAY_PIC(void); //显示图片
 
 #endif

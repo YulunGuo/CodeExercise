@@ -46,3 +46,5 @@
 .\main.o: .\Hardware\lm75a\lm75a.h
 .\main.o: .\Basic\i2c\i2c.h
 .\main.o: .\Hardware\oled\oled.h
+.\main.o: .\Hardware\relay\relay.h
+.\main.o: .\Hardware\stepmotor\stepmotor.h

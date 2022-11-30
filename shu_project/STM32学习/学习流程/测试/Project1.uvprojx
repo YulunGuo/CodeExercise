@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS;.\Lib\inc;.\Lib\src;.\Startup;.\User;.\Hardware\led;.\Basic\sys;.\Basic\delay;.\Hardware\key;.\Basic\flash;.\Hardware\buzzer;.\Basic\usart;.\Basic\rtc;.\Hardware\touch_key;.\Basic\TM1640;.\Hardware\encooder;.\Basic\i2c;.\Hardware\lm75a;.\Hardware\oled</IncludePath>
+              <IncludePath>.\CMSIS;.\Lib\inc;.\Lib\src;.\Startup;.\User;.\Hardware\led;.\Basic\sys;.\Basic\delay;.\Hardware\key;.\Basic\flash;.\Hardware\buzzer;.\Basic\usart;.\Basic\rtc;.\Hardware\touch_key;.\Basic\TM1640;.\Hardware\encooder;.\Basic\i2c;.\Hardware\lm75a;.\Hardware\oled;.\Hardware\relay;.\Hardware\stepmotor</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -577,6 +577,16 @@
               <FileName>oled.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Hardware\oled\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>relay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\relay\relay.c</FilePath>
+            </File>
+            <File>
+              <FileName>stepmotor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\stepmotor\stepmotor.c</FilePath>
             </File>
           </Files>
         </Group>

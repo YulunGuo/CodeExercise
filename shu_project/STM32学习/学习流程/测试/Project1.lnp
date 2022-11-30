@@ -34,6 +34,8 @@
 ".\encooder.o"
 ".\lm75a.o"
 ".\oled.o"
+".\relay.o"
+".\stepmotor.o"
 ".\sys.o"
 ".\delay.o"
 ".\flash.o"
