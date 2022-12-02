@@ -48,3 +48,4 @@
 .\main.o: .\Hardware\oled\oled.h
 .\main.o: .\Hardware\relay\relay.h
 .\main.o: .\Hardware\stepmotor\stepmotor.h
+.\main.o: .\Basic\adc\adc.h

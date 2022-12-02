@@ -4,6 +4,7 @@
         "delay.h": "c",
         "buzzer.h": "c",
         "usart.h": "c",
-        "relay.h": "c"
+        "relay.h": "c",
+        "adc.h": "c"
     }
 }
