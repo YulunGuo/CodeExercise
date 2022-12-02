@@ -1,13 +1,3 @@
-
-/*
-//杜洋工作室出品
-//洋桃系列开发板应用程序
-//关注微信公众号：洋桃电子
-//洋桃开发板资料下载 www.DoYoung.net/YT 
-//即可免费看所有教学视频，下载技术资料，技术疑难提问
-//更多内容尽在 杜洋工作室主页 www.doyoung.net
-*/
-
 /*
 《修改日志》
 1-201708271933 加入了秒延时函数。
@@ -276,7 +266,7 @@ void USART3_Init(u32 BaudRate){ //USART3初始化并启动
    USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;	//收发模式
 
    USART_Init(USART3, &USART_InitStructure);//配置串口3
-   USART_ITConfig(USART3, USART_IT_RXNE, ENABLE);//使能串口接收中断  
+   USART_ITConfig(USART3, USART_IT_RXNE, DISABLE);//使能串口接收中断  
    //USART_ITConfig(USART3, USART_IT_TXE, ENABLE);//串口发送中断在发送数据时开启
    USART_Cmd(USART3, ENABLE);//使能串口3
 
