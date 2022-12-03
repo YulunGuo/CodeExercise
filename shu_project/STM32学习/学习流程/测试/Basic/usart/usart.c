@@ -266,7 +266,7 @@ void USART3_Init(u32 BaudRate){ //USART3初始化并启动
    USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;	//收发模式
 
    USART_Init(USART3, &USART_InitStructure);//配置串口3
-   USART_ITConfig(USART3, USART_IT_RXNE, DISABLE);//使能串口接收中断  
+   USART_ITConfig(USART3, USART_IT_RXNE, ENABLE);//使能串口接收中断  
    //USART_ITConfig(USART3, USART_IT_TXE, ENABLE);//串口发送中断在发送数据时开启
    USART_Cmd(USART3, ENABLE);//使能串口3
 

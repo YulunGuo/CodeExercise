@@ -36,6 +36,7 @@
 ".\oled.o"
 ".\relay.o"
 ".\stepmotor.o"
+".\my1690.o"
 ".\sys.o"
 ".\delay.o"
 ".\flash.o"

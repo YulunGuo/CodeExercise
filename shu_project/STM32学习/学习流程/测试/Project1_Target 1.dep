@@ -1,8 +1,8 @@
 Dependencies for Project 'Project1', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\CMSIS\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+F (.\CMSIS\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
 I (D:\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-F (.\CMSIS\system_stm32f10x.c)(0x4D783CB0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+F (.\CMSIS\system_stm32f10x.c)(0x4D783CB0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
 I (CMSIS\stm32f10x.h)(0x4D783CB4)
 I (CMSIS\core_cm3.h)(0x4D523B58)
 I (D:\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
@@ -32,7 +32,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\misc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
+F (.\Lib\src\misc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -61,7 +61,7 @@ I (.\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_adc.o --omf_browse .\stm32f10x_adc.crf --depend .\stm32f10x_adc.d)
+F (.\Lib\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_adc.o --omf_browse .\stm32f10x_adc.crf --depend .\stm32f10x_adc.d)
 I (.\Lib\inc\stm32f10x_adc.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -90,7 +90,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_bkp.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_bkp.o --omf_browse .\stm32f10x_bkp.crf --depend .\stm32f10x_bkp.d)
+F (.\Lib\src\stm32f10x_bkp.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_bkp.o --omf_browse .\stm32f10x_bkp.crf --depend .\stm32f10x_bkp.d)
 I (.\Lib\inc\stm32f10x_bkp.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -119,7 +119,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_can.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_can.o --omf_browse .\stm32f10x_can.crf --depend .\stm32f10x_can.d)
+F (.\Lib\src\stm32f10x_can.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_can.o --omf_browse .\stm32f10x_can.crf --depend .\stm32f10x_can.d)
 I (.\Lib\inc\stm32f10x_can.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -148,7 +148,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_cec.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_cec.o --omf_browse .\stm32f10x_cec.crf --depend .\stm32f10x_cec.d)
+F (.\Lib\src\stm32f10x_cec.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_cec.o --omf_browse .\stm32f10x_cec.crf --depend .\stm32f10x_cec.d)
 I (.\Lib\inc\stm32f10x_cec.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -177,7 +177,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_crc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_crc.o --omf_browse .\stm32f10x_crc.crf --depend .\stm32f10x_crc.d)
+F (.\Lib\src\stm32f10x_crc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_crc.o --omf_browse .\stm32f10x_crc.crf --depend .\stm32f10x_crc.d)
 I (.\Lib\inc\stm32f10x_crc.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -206,7 +206,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_dac.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_dac.o --omf_browse .\stm32f10x_dac.crf --depend .\stm32f10x_dac.d)
+F (.\Lib\src\stm32f10x_dac.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_dac.o --omf_browse .\stm32f10x_dac.crf --depend .\stm32f10x_dac.d)
 I (.\Lib\inc\stm32f10x_dac.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -235,7 +235,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_dbgmcu.o --omf_browse .\stm32f10x_dbgmcu.crf --depend .\stm32f10x_dbgmcu.d)
+F (.\Lib\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_dbgmcu.o --omf_browse .\stm32f10x_dbgmcu.crf --depend .\stm32f10x_dbgmcu.d)
 I (.\Lib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -264,7 +264,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_dma.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_dma.o --omf_browse .\stm32f10x_dma.crf --depend .\stm32f10x_dma.d)
+F (.\Lib\src\stm32f10x_dma.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_dma.o --omf_browse .\stm32f10x_dma.crf --depend .\stm32f10x_dma.d)
 I (.\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -293,7 +293,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_exti.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_exti.o --omf_browse .\stm32f10x_exti.crf --depend .\stm32f10x_exti.d)
+F (.\Lib\src\stm32f10x_exti.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_exti.o --omf_browse .\stm32f10x_exti.crf --depend .\stm32f10x_exti.d)
 I (.\Lib\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -322,7 +322,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_flash.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_flash.o --omf_browse .\stm32f10x_flash.crf --depend .\stm32f10x_flash.d)
+F (.\Lib\src\stm32f10x_flash.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_flash.o --omf_browse .\stm32f10x_flash.crf --depend .\stm32f10x_flash.d)
 I (.\Lib\inc\stm32f10x_flash.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -351,7 +351,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_fsmc.o --omf_browse .\stm32f10x_fsmc.crf --depend .\stm32f10x_fsmc.d)
+F (.\Lib\src\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_fsmc.o --omf_browse .\stm32f10x_fsmc.crf --depend .\stm32f10x_fsmc.d)
 I (.\Lib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -380,7 +380,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_gpio.o --omf_browse .\stm32f10x_gpio.crf --depend .\stm32f10x_gpio.d)
+F (.\Lib\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_gpio.o --omf_browse .\stm32f10x_gpio.crf --depend .\stm32f10x_gpio.d)
 I (.\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -409,7 +409,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_i2c.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_i2c.o --omf_browse .\stm32f10x_i2c.crf --depend .\stm32f10x_i2c.d)
+F (.\Lib\src\stm32f10x_i2c.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_i2c.o --omf_browse .\stm32f10x_i2c.crf --depend .\stm32f10x_i2c.d)
 I (.\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -438,7 +438,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_iwdg.o --omf_browse .\stm32f10x_iwdg.crf --depend .\stm32f10x_iwdg.d)
+F (.\Lib\src\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_iwdg.o --omf_browse .\stm32f10x_iwdg.crf --depend .\stm32f10x_iwdg.d)
 I (.\Lib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -467,7 +467,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_pwr.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_pwr.o --omf_browse .\stm32f10x_pwr.crf --depend .\stm32f10x_pwr.d)
+F (.\Lib\src\stm32f10x_pwr.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_pwr.o --omf_browse .\stm32f10x_pwr.crf --depend .\stm32f10x_pwr.d)
 I (.\Lib\inc\stm32f10x_pwr.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -496,7 +496,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_rcc.o --omf_browse .\stm32f10x_rcc.crf --depend .\stm32f10x_rcc.d)
+F (.\Lib\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_rcc.o --omf_browse .\stm32f10x_rcc.crf --depend .\stm32f10x_rcc.d)
 I (.\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -525,7 +525,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_rtc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_rtc.o --omf_browse .\stm32f10x_rtc.crf --depend .\stm32f10x_rtc.d)
+F (.\Lib\src\stm32f10x_rtc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_rtc.o --omf_browse .\stm32f10x_rtc.crf --depend .\stm32f10x_rtc.d)
 I (.\Lib\inc\stm32f10x_rtc.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -554,7 +554,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_sdio.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_sdio.o --omf_browse .\stm32f10x_sdio.crf --depend .\stm32f10x_sdio.d)
+F (.\Lib\src\stm32f10x_sdio.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_sdio.o --omf_browse .\stm32f10x_sdio.crf --depend .\stm32f10x_sdio.d)
 I (.\Lib\inc\stm32f10x_sdio.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -583,7 +583,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_spi.o --omf_browse .\stm32f10x_spi.crf --depend .\stm32f10x_spi.d)
+F (.\Lib\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_spi.o --omf_browse .\stm32f10x_spi.crf --depend .\stm32f10x_spi.d)
 I (.\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -612,7 +612,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
+F (.\Lib\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
 I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -641,7 +641,7 @@ I (.\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_usart.o --omf_browse .\stm32f10x_usart.crf --depend .\stm32f10x_usart.d)
+F (.\Lib\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_usart.o --omf_browse .\stm32f10x_usart.crf --depend .\stm32f10x_usart.d)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -670,7 +670,7 @@ I (.\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Lib\src\stm32f10x_wwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_wwdg.o --omf_browse .\stm32f10x_wwdg.crf --depend .\stm32f10x_wwdg.d)
+F (.\Lib\src\stm32f10x_wwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_wwdg.o --omf_browse .\stm32f10x_wwdg.crf --depend .\stm32f10x_wwdg.d)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -700,7 +700,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 F (.\Startup\startup_stm32f10x_md.s)(0x4D783CD2)(--cpu Cortex-M3 -g --apcs=interwork -ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 534" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
-F (.\User\main.c)(0x6389AF4B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\User\main.c)(0x638B30DD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
 I (D:\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
@@ -750,7 +750,8 @@ I (.\Hardware\oled\oled.h)(0x6386CF15)
 I (.\Hardware\relay\relay.h)(0x6386CF15)
 I (.\Hardware\stepmotor\stepmotor.h)(0x6386CF15)
 I (.\Basic\adc\adc.h)(0x63899972)
-F (.\User\stm32f10x_it.c)(0x4D99A59E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_it.o --omf_browse .\stm32f10x_it.crf --depend .\stm32f10x_it.d)
+I (.\Hardware\my1690\my1690.h)(0x638B151D)
+F (.\User\stm32f10x_it.c)(0x4D99A59E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stm32f10x_it.o --omf_browse .\stm32f10x_it.crf --depend .\stm32f10x_it.d)
 I (User\stm32f10x_it.h)(0x4D99A59E)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -780,7 +781,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Hardware\led\led.c)(0x637DC82E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+F (.\Hardware\led\led.c)(0x637DC82E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\led.o --omf_browse .\led.crf --depend .\led.d)
 I (Hardware\led\led.h)(0x637DC7ED)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -812,7 +813,7 @@ I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (.\Basic\delay\delay.h)(0x5A414289)
-F (.\Hardware\key\key.c)(0x637DCAE3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\key.o --omf_browse .\key.crf --depend .\key.d)
+F (.\Hardware\key\key.c)(0x637DCAE3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\key.o --omf_browse .\key.crf --depend .\key.d)
 I (Hardware\key\key.h)(0x637DCA3C)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -843,7 +844,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Hardware\buzzer\buzzer.c)(0x637EE856)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\buzzer.o --omf_browse .\buzzer.crf --depend .\buzzer.d)
+F (.\Hardware\buzzer\buzzer.c)(0x637EE856)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\buzzer.o --omf_browse .\buzzer.crf --depend .\buzzer.d)
 I (Hardware\buzzer\buzzer.h)(0x637EE84A)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -875,7 +876,7 @@ I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (.\Basic\delay\delay.h)(0x5A414289)
-F (.\Hardware\touch_key\touch_key.c)(0x637F03BE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\touch_key.o --omf_browse .\touch_key.crf --depend .\touch_key.d)
+F (.\Hardware\touch_key\touch_key.c)(0x637F03BE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\touch_key.o --omf_browse .\touch_key.crf --depend .\touch_key.d)
 I (Hardware\touch_key\touch_key.h)(0x637F038D)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -906,7 +907,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Hardware\encooder\encooder.c)(0x63806D5E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\encooder.o --omf_browse .\encooder.crf --depend .\encooder.d)
+F (.\Hardware\encooder\encooder.c)(0x63806D5E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\encooder.o --omf_browse .\encooder.crf --depend .\encooder.d)
 I (Hardware\encooder\encooder.h)(0x638064D9)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -938,7 +939,7 @@ I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (.\Basic\delay\delay.h)(0x5A414289)
-F (.\Hardware\lm75a\lm75a.c)(0x63847710)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\lm75a.o --omf_browse .\lm75a.crf --depend .\lm75a.d)
+F (.\Hardware\lm75a\lm75a.c)(0x63847710)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\lm75a.o --omf_browse .\lm75a.crf --depend .\lm75a.d)
 I (Hardware\lm75a\lm75a.h)(0x63847425)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -970,7 +971,7 @@ I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (.\Basic\i2c\i2c.h)(0x6384741C)
-F (.\Hardware\oled\oled.c)(0x6386CF15)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\oled.o --omf_browse .\oled.crf --depend .\oled.d)
+F (.\Hardware\oled\oled.c)(0x6386CF15)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\oled.o --omf_browse .\oled.crf --depend .\oled.d)
 I (Hardware\oled\oled.h)(0x6386CF15)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -1005,7 +1006,7 @@ I (.\Basic\i2c\i2c.h)(0x6384741C)
 I (Hardware\oled\ASCII_8x16.h)(0x63848922)
 I (Hardware\oled\CHS_16x16.h)(0x6386CF15)
 I (Hardware\oled\PIC1.h)(0x6386CF15)
-F (.\Hardware\relay\relay.c)(0x6386CF15)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\relay.o --omf_browse .\relay.crf --depend .\relay.d)
+F (.\Hardware\relay\relay.c)(0x6386CF15)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\relay.o --omf_browse .\relay.crf --depend .\relay.d)
 I (Hardware\relay\relay.h)(0x6386CF15)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -1036,7 +1037,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Hardware\stepmotor\stepmotor.c)(0x6386CF15)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stepmotor.o --omf_browse .\stepmotor.crf --depend .\stepmotor.d)
+F (.\Hardware\stepmotor\stepmotor.c)(0x6386CF15)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\stepmotor.o --omf_browse .\stepmotor.crf --depend .\stepmotor.d)
 I (Hardware\stepmotor\stepmotor.h)(0x6386CF15)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -1068,7 +1069,43 @@ I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (.\Basic\delay\delay.h)(0x5A414289)
-F (.\Basic\sys\sys.c)(0x59A2AF0E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+F (.\Hardware\my1690\my1690.c)(0x638B151F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\my1690.o --omf_browse .\my1690.crf --depend .\my1690.d)
+I (Hardware\my1690\my1690.h)(0x638B151D)
+I (.\Basic\sys\sys.h)(0x59A2B582)
+I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (.\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x4D99A59E)
+I (.\Lib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Lib\inc\misc.h)(0x4D783BB4)
+I (.\Basic\usart\usart.h)(0x63897CDE)
+I (D:\MDK\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (D:\MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (.\Basic\sys\sys.c)(0x59A2AF0E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
 I (Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -1098,7 +1135,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Basic\delay\delay.c)(0x6338E985)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+F (.\Basic\delay\delay.c)(0x6338E985)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
 I (Basic\delay\delay.h)(0x5A414289)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -1129,7 +1166,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Basic\flash\flash.c)(0x637DD216)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\flash.o --omf_browse .\flash.crf --depend .\flash.d)
+F (.\Basic\flash\flash.c)(0x637DD216)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\flash.o --omf_browse .\flash.crf --depend .\flash.d)
 I (Basic\flash\flash.h)(0x5A47C831)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -1160,7 +1197,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Basic\usart\usart.c)(0x63897CDD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+F (.\Basic\usart\usart.c)(0x638B021E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -1195,7 +1232,7 @@ I (D:\MDK\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
 I (D:\MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (D:\MDK\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (D:\MDK\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
-F (.\Basic\rtc\rtc.c)(0x6386E623)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+F (.\Basic\rtc\rtc.c)(0x6386E623)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (.\CMSIS\core_cm3.h)(0x4D523B58)
@@ -1226,7 +1263,7 @@ I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (Basic\rtc\rtc.h)(0x637EF95D)
-F (.\Basic\TM1640\TM1640.c)(0x6386E61F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\tm1640.o --omf_browse .\tm1640.crf --depend .\tm1640.d)
+F (.\Basic\TM1640\TM1640.c)(0x6386E61F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\tm1640.o --omf_browse .\tm1640.crf --depend .\tm1640.d)
 I (Basic\TM1640\TM1640.h)(0x59A94724)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -1258,7 +1295,7 @@ I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
 I (.\Basic\delay\delay.h)(0x5A414289)
-F (.\Basic\i2c\i2c.c)(0x6386E62A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+F (.\Basic\i2c\i2c.c)(0x6386E62A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
 I (Basic\i2c\i2c.h)(0x6384741C)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)
@@ -1289,7 +1326,7 @@ I (.\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Lib\inc\misc.h)(0x4D783BB4)
-F (.\Basic\adc\adc.c)(0x63899BCF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+F (.\Basic\adc\adc.c)(0x63899BCF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\Lib\src -I .\Startup -I .\User -I .\Hardware\led -I .\Basic\sys -I .\Basic\delay -I .\Hardware\key -I .\Basic\flash -I .\Hardware\buzzer -I .\Basic\usart -I .\Basic\rtc -I .\Hardware\touch_key -I .\Basic\TM1640 -I .\Hardware\encooder -I .\Basic\i2c -I .\Hardware\lm75a -I .\Hardware\oled -I .\Hardware\relay -I .\Hardware\stepmotor -I .\Basic\adc -I .\Hardware\my1690-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="534" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
 I (Basic\adc\adc.h)(0x63899972)
 I (.\Basic\sys\sys.h)(0x59A2B582)
 I (.\CMSIS\stm32f10x.h)(0x4D783CB4)

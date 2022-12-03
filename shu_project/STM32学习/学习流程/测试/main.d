@@ -49,3 +49,4 @@
 .\main.o: .\Hardware\relay\relay.h
 .\main.o: .\Hardware\stepmotor\stepmotor.h
 .\main.o: .\Basic\adc\adc.h
+.\main.o: .\Hardware\my1690\my1690.h

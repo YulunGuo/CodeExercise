@@ -5,6 +5,7 @@
         "buzzer.h": "c",
         "usart.h": "c",
         "relay.h": "c",
-        "adc.h": "c"
+        "adc.h": "c",
+        "my1690.h": "c"
     }
 }

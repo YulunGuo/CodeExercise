@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS;.\Lib\inc;.\Lib\src;.\Startup;.\User;.\Hardware\led;.\Basic\sys;.\Basic\delay;.\Hardware\key;.\Basic\flash;.\Hardware\buzzer;.\Basic\usart;.\Basic\rtc;.\Hardware\touch_key;.\Basic\TM1640;.\Hardware\encooder;.\Basic\i2c;.\Hardware\lm75a;.\Hardware\oled;.\Hardware\relay;.\Hardware\stepmotor;.\Basic\adc</IncludePath>
+              <IncludePath>.\CMSIS;.\Lib\inc;.\Lib\src;.\Startup;.\User;.\Hardware\led;.\Basic\sys;.\Basic\delay;.\Hardware\key;.\Basic\flash;.\Hardware\buzzer;.\Basic\usart;.\Basic\rtc;.\Hardware\touch_key;.\Basic\TM1640;.\Hardware\encooder;.\Basic\i2c;.\Hardware\lm75a;.\Hardware\oled;.\Hardware\relay;.\Hardware\stepmotor;.\Basic\adc;.\Hardware\my1690</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -587,6 +587,11 @@
               <FileName>stepmotor.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Hardware\stepmotor\stepmotor.c</FilePath>
+            </File>
+            <File>
+              <FileName>my1690.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\my1690\my1690.c</FilePath>
             </File>
           </Files>
         </Group>
