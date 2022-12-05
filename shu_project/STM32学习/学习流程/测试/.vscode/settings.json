@@ -6,6 +6,15 @@
         "usart.h": "c",
         "relay.h": "c",
         "adc.h": "c",
-        "my1690.h": "c"
+        "my1690.h": "c",
+        "stepmotor.h": "c",
+        "touch_key.h": "c",
+        "encooder.h": "c",
+        "rtc.h": "c",
+        "tm1640.h": "c",
+        "i2c.h": "c",
+        "oled.h": "c",
+        "sys.h": "c",
+        "lm75a.h": "c"
     }
 }

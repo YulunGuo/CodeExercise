@@ -1,6 +1,6 @@
 #include "adc.h"
 
-vu16 ADC_DMA_IN[4]; //外部通道ADC数值存放
+vu16 ADC_DMA_IN[2]; //外部通道ADC数值存放
 
 void ADC_DMA_Init(void){
     DMA_InitTypeDef DMA_InitStruture;
@@ -8,7 +8,7 @@ void ADC_DMA_Init(void){
     DMA_InitStruture.DMA_PeripheralBaseAddr = ADD1_DR_ADDRESS;
     DMA_InitStruture.DMA_MemoryBaseAddr = (u32)&ADC_DMA_IN;
     DMA_InitStruture.DMA_DIR = DMA_DIR_PeripheralSRC; //定义外设作为源地址
-    DMA_InitStruture.DMA_BufferSize = 4; // 缓冲区大小（为ADC采集通道数）
+    DMA_InitStruture.DMA_BufferSize = 2; // 缓冲区大小（为ADC采集通道数）
     DMA_InitStruture.DMA_PeripheralInc = DMA_PeripheralInc_Disable; // 当前外设地址不变
     DMA_InitStruture.DMA_MemoryInc = DMA_MemoryInc_Enable; // 存储器地址不变，由于只存储一个数据，因此存储器地址不会偏移
     DMA_InitStruture.DMA_PeripheralDataSize = DMA_PeripheralDataSize_HalfWord; // 外设数据宽度为16位
@@ -24,7 +24,7 @@ void ADC_GPIO_Init(void){
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA|RCC_APB2Periph_GPIOB|RCC_APB2Periph_GPIOC|RCC_APB2Periph_GPIOD,ENABLE);
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1,ENABLE);
     RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA1,ENABLE);
-    GPIO_InitStruture.GPIO_Pin = ADC_CH4 | ADC_CH5 | ADC_CH6 | ADC_CH7;
+    GPIO_InitStruture.GPIO_Pin = ADC_CH4 | ADC_CH5;
     GPIO_InitStruture.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_InitStruture.GPIO_Mode = GPIO_Mode_AIN;
     GPIO_Init(ADC_PORT,&GPIO_InitStruture);
@@ -38,13 +38,11 @@ void ADC_Config(void){
     ADC_InitStruture.ADC_ScanConvMode = ENABLE; // 使能扫描
     ADC_InitStruture.ADC_ExternalTrigConv = ADC_ExternalTrigConv_None; // 软件控制转换
     ADC_InitStruture.ADC_DataAlign = ADC_DataAlign_Right; // 数据右对齐
-    ADC_InitStruture.ADC_NbrOfChannel = 4; // 顺序进行转换的通道数
+    ADC_InitStruture.ADC_NbrOfChannel = 2; // 顺序进行转换的通道数
     ADC_Init(ADC1,&ADC_InitStruture);
     // 设置指定ADC规则组通道，设置采样顺序与采样时间
     ADC_RegularChannelConfig(ADC1,ADC_Channel_4,1,ADC_SampleTime_28Cycles5); // 光敏电阻
     ADC_RegularChannelConfig(ADC1,ADC_Channel_5,2,ADC_SampleTime_28Cycles5); // 电压调节
-    ADC_RegularChannelConfig(ADC1,ADC_Channel_6,3,ADC_SampleTime_28Cycles5); // X轴
-    ADC_RegularChannelConfig(ADC1,ADC_Channel_7,4,ADC_SampleTime_28Cycles5); // X轴
     // 开启ADC1 DMA
     ADC_DMACmd(ADC1,ENABLE);
     // 使能ADC1
