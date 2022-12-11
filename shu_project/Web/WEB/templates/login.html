@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://formden.com/static/assets/demos/bootstrap-iso/bootstrap-iso/bootstrap-iso.css" />
+<link href="../static/css/login.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bootstrap-iso">
+        {% for error_message in get_flashed_messages() %}
+            <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                <a href="{{ url_for('auth.login') }}" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Error!</strong>
+                {{ error_message }}
+            </div>
+        {% endfor %}
+        </div>
+        <div class="login-wrapper">
+            <div class="header">Login</div>
+            <form method="post" action="{{ url_for('auth.login') }}">
+                <div class="form-wrapper">
+                    <input type="text" name="username" placeholder="username" class="input-item" id="exampleInputUsername">
+                    <input type="password" name="password" placeholder="password" class="input-item" id="exampleInputPassword">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                    <input class="btn" type="submit" value="Login">
+                </div>
+            </form>
+            <div class="msg">
+                Don't have account?
+                <a href="{{ url_for('auth.register') }}">Sign up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

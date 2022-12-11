@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.container {
+    height: 100%;
+    background-image: url(../image/login.gif);
+    /* 背景图垂直、水平均居中 1261*713*/
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+    background-color: #464646;
+}
+.login-wrapper {
+    background-color: rgba(240, 255, 255, 0.25);
+    width: 358px;
+    height: 588px;
+    border-radius: 15px;
+    padding: 0 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.header {
+    color: #f4c003;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+}
+.input-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgb(128, 125, 125);
+    font-size: 15px;
+    outline: none;
+}
+.input-item:placeholder {
+    text-transform: uppercase;
+}
+.btn {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #a6e8ee, #c2c7fb);
+    color: #fff;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+}
+.msg {
+    text-align: center;
+    line-height: 88px;
+}
+a {
+    text-decoration-line: none;
+    color: #abc1ee;
+}

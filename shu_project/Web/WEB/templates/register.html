@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="https://formden.com/static/assets/demos/bootstrap-iso/bootstrap-iso/bootstrap-iso.css" />
+<link href="../static/css/register.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+</head>
+<body>
+<div class="bootstrap-iso">
+    {% for error_message in get_flashed_messages() %}
+        <div class="alert alert-warning alert-dismissible fade in" role="alert">
+            <a href="{{ url_for('auth.register') }}" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>
+            {{ error_message }}
+            </strong>
+        </div>
+    {% endfor %}
+</div>
+<!--    最外边的-->
+    <div class="rg_layout">
+        <!--    最左边的-->
+        <div class="rg_left">
+            <p >Welcome to Impart !</p>
+            <p>USER REGISIER</p>
+        </div>
+<!--中间的-->
+        <div class="rg_center">
+            <div class="rg_from">
+                <form action="{{ url_for('auth.register') }}" method="post">
+                    <table >
+                        <tr>
+                            <td class="td_left"><label for="exampleInputUsername">Username</label> </td>
+                            <td class="td_right"><input type="text" name="username" id="exampleInputUsername" placeholder="Enter Username"></td>
+                        </tr>
+                        <tr>
+                            <td class="td_left"><label for="exampleInputPassword">Password</label> </td>
+                            <td class="td_right"><input type="password" name="password" id="exampleInputPassword" placeholder="Enter Password"></td>
+                        </tr>
+                        <tr>
+                            <td class="td_left"><label for="exampleInputEmail">Email</label> </td>
+                            <td class="td_right"><input type="email" name="email" id="exampleInputEmail" placeholder="Enter Email"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                                <input type="submit" id="btn_sub" value="Register" >
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+ 
+            </div>
+ 
+        </div>
+ 
+ 
+ 
+<!--最右边的-->
+        <div class="rg_right">
+            Already have a account? <a href="{{url_for('auth.login')}}">Login</a>
+        </div>
+ 
+ 
+    </div>
+ 
+ 
+</body>
+</html>

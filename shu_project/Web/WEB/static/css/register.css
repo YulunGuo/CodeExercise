@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-image: url(../image/login.gif);
+    /* 背景图垂直、水平均居中 1261*713*/
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+    background-color: #464646;
+}
+.rg_layout{
+    width: 500px;
+    height: 350px;
+    border: 5px solid rgba(240, 255, 255, 0.25);
+    background-color: rgba(240, 255, 255, 0.5);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+.rg_left{
+    /*border: 1px red solid;*/
+    float: left;
+    margin: 15px;
+}
+.rg_center{
+    /*border: 1px red solid;*/
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+
+}
+.rg_right{
+    /*border: 1px red solid;*/
+    float: right;
+    margin: 10px;
+    font-size: initial;
+    font-family: fantasy;
+}
+
+.rg_left > p:first-child{
+    color: #f4c003;
+    font-size: 18px;
+    font-family: fantasy;
+}
+.rg_left >p:last-child{
+    color: #FFD026;
+    font-size: 16px;
+}
+.rg_right >p:first-child{
+    font-size: 10px;
+}
+.rg_right p a {
+    color: pink;
+}
+
+.td_left{
+    width: 100px;
+    height: 40px;
+    text-align: right;
+}
+.td_right{
+    padding-left: 20px;
+}
+#username,#password,#email,#name,#phone,#abirthday,#checkcod   {
+    width: 180px;
+    height: 25px;
+    border: 1px solid #A6A6A6 ;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#checkcod{
+    width: 90px;
+}
+#img_check{
+    vertical-align: middle;
+}
+#btn_sub{
+    width: 100px;
+    height: 25px;
+    background-color: #FFD026;
+    border: solid #FFD026 1px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
