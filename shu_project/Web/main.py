@@ -21,6 +21,8 @@ manager = Manager(app=app)
 migrate = Migrate(app,db)
 manager.add_command('db',MigrateCommand)
 
+from WEB.socketio import*
+
 if __name__ == '__main__':
     # manager.run()
     socketio.run(app,host='0.0.0.0')
