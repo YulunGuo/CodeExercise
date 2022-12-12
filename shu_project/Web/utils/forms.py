@@ -32,7 +32,6 @@ class RegisterForm(Form):
         validators=[
             validators.DataRequired(message='密码不能为空.'),
             validators.Length(min=8, message='密码长度必须大于%(min)d'),
-
         ],
         widget=widgets.PasswordInput(),
     )
@@ -44,3 +43,9 @@ class RegisterForm(Form):
         ],
         widget=widgets.TextInput(input_type='email'),
     )
+
+class EditProfileForm(Form):
+	name = simple.StringField('Real name', validators=[validators.Length(0, 64)])
+	location = simple.StringField('Location', validators=[validators.Length(0, 64)])
+	about_me = simple.TextAreaField('About me')
+	submit = simple.SubmitField('Submit')

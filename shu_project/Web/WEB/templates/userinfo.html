@@ -1,0 +1,8 @@
+<h1>User Name : {{user.username}}</h1>
+<h1>User Email : {{user.email}}</h1>
+<h1>User Location: {{user.location}}</h1>
+<h1>About me: {{user.about_me}}</h1>
+<h3>Edit:</h3>
+<a href="{{ url_for('userinfo.editinfo',username=user.username) }}">Edit Your Profit</a>
+<h3>Back:</h3>
+<a href="{{ url_for('chatroom.chat') }}">Return Chatroom</a>

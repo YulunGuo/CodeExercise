@@ -16,7 +16,7 @@
         <img src="../static/image/logo.png" style="width:130px; height:140px;" class="img-responsive center-block img-circle" id="images" />
         <h5 class=" ml-4 my-0 mr-md-auto font-weight-normal">Impart Hub</h5>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="#">
+            <a class="p-2 text-dark" href="{{ url_for('userinfo.userinfo',username=current_user.username) }}">
                 {% if current_user.is_authenticated %}
                     Hi {{ current_user.username }}!
                 {% endif %}

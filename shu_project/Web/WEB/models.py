@@ -14,6 +14,12 @@ class User(UserMixin,db.Model):
     avatar_url = db.Column(db.String(256))
     # 消息
     messages = db.relationship('Message',back_populates='author',cascade='all')
+    # 站内名
+    name = db.Column(db.String(8))
+    # 位置
+    location = db.Column(db.String(256))
+    # 介绍
+    about_me = db.Column(db.String(256))
 
     def __init__(self,**kwargs):
         super(User,self).__init__(**kwargs)

@@ -61,6 +61,8 @@ def register():
                 flash(form.errors[error][0])
             return redirect(url_for('auth.register'))
 
+
+
 # 登出
 @login_required
 @auth.route('/logout',methods=['GET','POST'],endpoint='logout')
