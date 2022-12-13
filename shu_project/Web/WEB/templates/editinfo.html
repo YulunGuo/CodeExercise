@@ -1,13 +1,21 @@
 <link rel="stylesheet" href="https://formden.com/static/assets/demos/bootstrap-iso/bootstrap-iso/bootstrap-iso.css" />
-<link href="../static/css/register.css" rel="stylesheet">
-<h1>Edit Profile</h1>
-<form action=" {{ url_for('userinfo.editinfo',username=current_user.username) }} " method="post">
-    <input type="text" name="name" id="exampleInputUsername" placeholder="New Name">
-    <input type="text" name="location" id="exampleInputPassword" placeholder="Enter Location">
-    <input type="text" name="about_me" id="exampleInputEmail" placeholder="About Me">
-    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-    <input type="submit" id="btn_sub" value="Submit" >
-</form>
+
+
+<head>
+    <link rel="icon" href="../static/image/logo.png">
+    <title>{{current_user.name}}'s Edit</title>    
+</head>
+
+<body>
+    <h1>Edit Profile</h1>
+    <form action=" {{ url_for('userinfo.editinfo',username=current_user.username) }} " method="post">
+        <input type="text" name="name" id="exampleInputUsername" placeholder="New Name">
+        <input type="text" name="location" id="exampleInputPassword" placeholder="Enter Location">
+        <input type="text" name="about_me" id="exampleInputEmail" placeholder="About Me">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <input type="submit" id="btn_sub" value="Submit" >
+    </form>
+</body>
 
 
     

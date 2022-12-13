@@ -33,3 +33,9 @@ def Edit_User_Info(username):
             for error in form.errors:
                 flash(form.errors[error][0])
             return render_template('editinfo.html')
+
+# 网站简介
+@userinfo.route('/webinfo',methods=['GET','POST'],endpoint='webinfo')
+@login_required
+def Web_Info():
+    return render_template('webinfo.html')

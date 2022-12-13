@@ -1,8 +1,87 @@
-<h1>User Name : {{user.username}}</h1>
-<h1>User Email : {{user.email}}</h1>
-<h1>User Location: {{user.location}}</h1>
-<h1>About me: {{user.about_me}}</h1>
-<h3>Edit:</h3>
-<a href="{{ url_for('userinfo.editinfo',username=user.username) }}">Edit Your Profit</a>
-<h3>Back:</h3>
-<a href="{{ url_for('chatroom.chat') }}">Return Chatroom</a>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+
+
+<head>
+    <link rel="icon" href="../static/image/logo.png">
+    <title>{{user.name}}'s Space</title>    
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">{{user.name}}'s Space</a>
+            </div>
+        <ul class="nav navbar-nav navbar-right">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="{{ url_for('chatroom.chat') }}">Chatroom</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('userinfo.editinfo',username=user.username) }}">Edit Your Profit</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('userinfo.webinfo') }}">About Impart</a>
+                    </li>
+                </ul>
+            </div>
+        </ul>
+        </div>
+    </nav>
+
+    <!-- 主体部分 -->
+        <span class="glyphicon glyphicon-eye-open" style="color: rgb(255, 140, 60);font-size: 20px;">
+            <strong>Username:</strong> {{user.username}}
+        </span>
+        <br>
+        <br>
+        <span class="glyphicon glyphicon-ok-circle" style="color: rgb(255, 140, 60); font-size: 20px;">
+            <strong>Name: </strong> {{user.name}}
+        </span>
+        <br>
+        <br>
+        <span class="glyphicon glyphicon-envelope" style="color: rgb(255, 140, 60); font-size: 20px;"> 
+            <strong>Email: </strong> {{user.email}}
+        </span>
+        <br>
+        <br>
+        <span class="glyphicon glyphicon-home" style="color: rgb(255, 140, 60); font-size: 20px;"> 
+            <strong>Location: </strong> {{user.location}}
+        </span>
+        <br>
+        <br>    
+        <span class="glyphicon glyphicon-hand-up" style="color: rgb(255, 140, 60); font-size: 20px;">
+            <strong>About me: </strong> {{user.about_me}}
+        </span>
+        <br>
+        <br>
+        <br>
+
+    <!-- 超大屏幕 -->
+    <div class="jumbotron">
+        <h3>Welcome to {{user.name}}'s Space !</h3>
+        <h4>
+        <strong>This is a space you can show yourself and enjoy impart show !</strong>
+        </h4>
+        <p>
+            <a class="btn btn-primary btn-lg" role="button" href="{{ url_for('userinfo.webinfo') }}">Learn more</a>
+        </p>
+   </div>
+
+</body>
+
+
+
+<!-- <body>
+    <h1>Username : {{user.username}}</h1>
+    <h1>Name: {{user.name}}</h1>
+    <h1>User Email : {{user.email}}</h1>
+    <h1>User Location: {{user.location}}</h1>
+    <h1>About me: {{user.about_me}}</h1>
+    <h3>Edit Page:</h3>
+    <a href="{{ url_for('userinfo.editinfo',username=user.username) }}">Edit Your Profit</a>
+    <h3>Back Chatroom:</h3>
+    <a href="{{ url_for('chatroom.chat') }}">Return Chatroom</a>
+</body> -->
