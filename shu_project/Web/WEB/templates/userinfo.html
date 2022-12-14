@@ -32,29 +32,42 @@
     </nav>
 
     <!-- 主体部分 -->
-        <span class="glyphicon glyphicon-eye-open" style="color: rgb(255, 140, 60);font-size: 20px;">
-            <strong>Username:</strong> {{user.username}}
-        </span>
-        <br>
-        <br>
-        <span class="glyphicon glyphicon-ok-circle" style="color: rgb(255, 140, 60); font-size: 20px;">
-            <strong>Name: </strong> {{user.name}}
-        </span>
-        <br>
-        <br>
-        <span class="glyphicon glyphicon-envelope" style="color: rgb(255, 140, 60); font-size: 20px;"> 
-            <strong>Email: </strong> {{user.email}}
-        </span>
-        <br>
-        <br>
-        <span class="glyphicon glyphicon-home" style="color: rgb(255, 140, 60); font-size: 20px;"> 
-            <strong>Location: </strong> {{user.location}}
-        </span>
-        <br>
-        <br>    
-        <span class="glyphicon glyphicon-hand-up" style="color: rgb(255, 140, 60); font-size: 20px;">
-            <strong>About me: </strong> {{user.about_me}}
-        </span>
+    <div class="media">
+        <!-- 头像 -->
+        <div class="media-left media-middle">
+            <img decoding="async" src="../static/image/logo.png" class="media-object img-circle" style="width:180px;">
+        </div>
+        <!-- 简介 -->
+        <div class="media-body">
+            <h2 class="media-heading">Introduction</h2>
+            <p>
+                <span class="glyphicon glyphicon-eye-open" style="color: rgb(255, 140, 60);font-size: 20px;">
+                    <strong>Username:</strong> {{user.username}}
+                </span>
+                <br>
+                <br>
+                <span class="glyphicon glyphicon-ok-circle" style="color: rgb(255, 140, 60); font-size: 20px;">
+                    <strong>Name: </strong> {{user.name}}
+                </span>
+                <br>
+                <br>
+                <span class="glyphicon glyphicon-envelope" style="color: rgb(255, 140, 60); font-size: 20px;"> 
+                    <strong>Email: </strong> <a href="mailto:{{user.email}}">{{user.email}}</a>
+                </span>
+                <br>
+                <br>
+                <span class="glyphicon glyphicon-home" style="color: rgb(255, 140, 60); font-size: 20px;"> 
+                    <strong>Location: </strong> {{user.location}}
+                </span>
+                <br>
+                <br>    
+                <span class="glyphicon glyphicon-hand-up" style="color: rgb(255, 140, 60); font-size: 20px;">
+                    <strong>About me: </strong> {{user.about_me}}
+                </span>
+            </p>
+        </div>
+    </div>
+
         <br>
         <br>
         <br>
